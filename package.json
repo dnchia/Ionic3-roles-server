@@ -7,7 +7,7 @@
   },
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node ./app/server.js"
   },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
