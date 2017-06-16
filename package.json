@@ -1,0 +1,24 @@
+{
+  "name": "ionic3-roles-server",
+  "version": "0.1.0",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.6.3",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.1.0",
+    "passport-local": "^1.0.0"
+  }
+}
